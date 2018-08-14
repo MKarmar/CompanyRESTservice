@@ -82,8 +82,7 @@ This will create 5 non-existing companies in the database for testing purposes.
 
 * [Bundler](https://bundler.io/) - Gem file installer
 
-## Contributing
--
+
 
 ## Versioning
 
@@ -92,8 +91,6 @@ This will create 5 non-existing companies in the database for testing purposes.
 ## Authors
 * **Mark Karmar**
 
-## License
--
 
 ## Acknowledgments
 
