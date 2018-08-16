@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>{{company.Name}}</h1>
+  <small>Owned by {{company.Beneficial_owner}} <br>
+    Located on: {{company.Address}}, {{company.City}} in {{company.Country}}</small>
+  <hr>
+  <div>
+    <p> Contact informations:</p>
+    <p> Phone: {{company.Phone_number}}</p>
+    <p> E-Mail: {{company.E_Mail}}</p>
+  </div>
+  <p>
+    <input class="btn btn-primary" onclick="location.href='/update_company/{{company.id}}'" type="button" value="Update company info">
+    <input class="btn btn-danger"onclick="location.href='/delete/{{company.id}}'" value="Delete" type="button">
+  </p>
+{% endblock %}

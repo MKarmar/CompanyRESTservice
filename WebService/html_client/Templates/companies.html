@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Companies</h1>
+  <ul class="list-group">
+    {% for company in companies %}
+      <li class="list-group-item"><a href="company/{{company.id}}">{{company.Name}}</a></li>
+    {% endfor %}
+  </ul>
+{% endblock %}
